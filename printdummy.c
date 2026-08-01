@@ -63,14 +63,14 @@ int main() {
         }
     }
 
-    return (number % 2 == 0);
+    // return (number % 2 == 0);
 
-    if (num7 % 3 == 0) {
+    if (num7 % 2 == 0) {
         printf("%d is an even number.\n", num7);
     } else {
         printf("%d is an odd number.\n", num7);
-        if (num7 % 3 == 0) {
-            printf(" (Also divisible by 3).\n");
+        if (num7 % 2 == 0) {
+            printf(" (Also divisible by 2).\n");
         }
     }
 
@@ -82,6 +82,6 @@ int main() {
 Function_datatype   function_name(arguments)
 {
     // Function body: code to perform the task
-    return arguments_if_any; // This line is only present if Function_datatype is not 'void’
+    return arguments_if_any; // This line is only present if Function_datatype is not 'voidï¿½
 }
 
